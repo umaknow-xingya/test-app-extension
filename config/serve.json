@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://umaknowxingya.sharepoint.com/sites/test-web-extension/SitePages/Home.aspx",
+      "customActions": {
+        "f7b690e6-ba5a-44c7-9ce4-e26ebb8855b5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page", 
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://umaknowxingya.sharepoint.com/sites/test-web-extension/SitePages/Home.aspx",
+      "customActions": {
+        "f7b690e6-ba5a-44c7-9ce4-e26ebb8855b5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page", 
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}
